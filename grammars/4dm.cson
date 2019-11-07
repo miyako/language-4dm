@@ -21,8 +21,8 @@
   ''' : 'comment.block'
 
   '''
-  while_e,
-  until_e,
-  for_each_e,
-  end_for_each_e
+  while,
+  until,
+  for_each,
+  end_for_each
   ''' : 'keyword.control'
