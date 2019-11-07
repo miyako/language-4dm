@@ -3,12 +3,8 @@
 
 'scopeName': 'source.4dm'
 'name': '4dm'
+'type': 'tree-sitter'
+'parser': 'tree-sitter-c'
 'fileTypes': [
-  'extension'
-]
-'patterns': [
-  {
-    'match': '^\\s*@@.*$'
-    'name': 'comment'
-  }
+  '4dm'
 ]

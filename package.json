@@ -4,7 +4,8 @@
   "description": "A short description of your language package",
   "keywords": [
     "language",
-    "grammar"
+    "grammar",
+    "tree-sitter"
   ],
   "repository": "https://github.com/miyako/language-4dm",
   "license": "MIT",
@@ -13,7 +14,8 @@
   },
   "dependencies": {
     "nan": "^2.14.0",
-    "node-gyp": "^6.0.1"
+    "node-gyp": "^6.0.1",
+    "tree-sitter-4dm": "^0.0.0"
   },
   "devDependencies": {
     "tree-sitter-cli": "^0.15.12"
