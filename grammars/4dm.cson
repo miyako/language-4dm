@@ -5,6 +5,21 @@
 'name': '4dm'
 'type': 'tree-sitter'
 'parser': 'tree-sitter-4dm'
+
 'fileTypes': [
   '4dm'
 ]
+
+'comments':
+  'start': '/*'
+  'end': '*/'
+
+'scopes':
+
+  '''
+  comment
+  ''' : 'comment.block'
+
+  '''
+  each_block_e
+  ''' : 'keyword.control'
