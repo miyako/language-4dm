@@ -6,7 +6,7 @@
     "language",
     "grammar"
   ],
-  "repository": "https://github.com/atom/language-4dm",
+  "repository": "https://github.com/miyako/language-4dm",
   "license": "MIT",
   "engines": {
     "atom": ">=1.0.0 <2.0.0"
