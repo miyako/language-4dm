@@ -27,6 +27,10 @@
   ''' : 'comment.block'
 
   '''
+  number
+  ''' : 'constant.numeric' 
+
+  '''
   while,
   until,
   for_each,
