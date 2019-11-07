@@ -27,8 +27,8 @@
   ''' : 'comment.block'
 
   '''
-  number
-  ''' : 'constant.numeric' 
+  constant_numeric
+  ''' : 'constant.numeric'
 
   '''
   while,
