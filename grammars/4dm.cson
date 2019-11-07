@@ -4,7 +4,7 @@
 'scopeName': 'source.4dm'
 'name': '4dm'
 'type': 'tree-sitter'
-'parser': 'tree-sitter-c'
+'parser': 'tree-sitter-4dm'
 'fileTypes': [
   '4dm'
 ]
