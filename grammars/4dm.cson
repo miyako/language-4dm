@@ -23,6 +23,6 @@
   '''
   while_e,
   until_e,
-  While,
-  Until
+  for_each_e,
+  end_for_each_e
   ''' : 'keyword.control'
