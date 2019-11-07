@@ -15,9 +15,53 @@
   'end': '*/'
 
 'folds': [
-  'type': ['for_each_block']
-  'start': {'type': 'for_each'}
-  'end': {'type': 'end_for_each'}
+  {
+    'type': ['for_each_block']
+    'start': {'type': 'for_each'}
+    'end': {'type': 'end_for_each'}
+  }
+
+  {
+    'type': ['while_block']
+    'start': {'type': 'while'}
+    'end': {'type': 'end_while'}
+  }
+
+  {
+    'type': ['repeat_block']
+    'start': {'type': 'repeat'}
+    'end': {'type': 'until'}
+  }
+
+  {
+    'type': ['if_block']
+    'start': {'type': ['end_if', 'if']}
+    'end': {'type': ['else', 'end_if']}
+  }
+
+  {
+    'type': ['for_block']
+    'start': {'type': 'for'}
+    'end': {'type': 'end_for'}
+  }
+
+  {
+    'type': ['sql_block']
+    'start': {'type': 'begin_sql'}
+    'end': {'type': 'end_sql'}
+  }
+
+  {
+    'type': ['use_block']
+    'start': {'type': 'use'}
+    'end': {'type': 'end_use'}
+  }
+
+  {
+    'type': ['case_block']
+    'start': {'type': ['":"', 'else', 'case_of']}
+    'end': {'type': ['":"', 'else', 'end_case']}
+  }
 ]
 
 'scopes':
@@ -34,5 +78,18 @@
   while,
   until,
   for_each,
-  end_for_each
+  end_for_each,
+  for,
+  end_for,
+  use,
+  end_use,
+  repeat,
+  end_while,
+  if,
+  else,
+  end_if,
+  case_of,
+  end_case,
+  begin_sql,
+  end_sql
   ''' : 'keyword.control'
