@@ -71,8 +71,44 @@
   ''' : 'comment.block'
 
   '''
-  constant_numeric
+  parameter
+  ''' : 'entity.name.parameter'
+
+  '''
+  _local_variable
+  ''' : 'entity.name.variable.local'
+
+  '''
+  _interprocess_variable
+  ''' : 'entity.name.variable.global'
+
+  '''
+  _name
+  ''' : 'entity.name.generic'
+
+  '''
+  _table
+  ''' : 'support.storage.table'
+
+  '''
+  _field
+  ''' : 'support.storage.field'
+
+  '''
+  _number
   ''' : 'constant.numeric'
+
+  '''
+  _date
+  ''' : 'constant.date'
+
+  '''
+  _time
+  ''' : 'constant.time'
+
+  '''
+  _string
+  ''' : 'string.quoted.double'
 
   '''
   while,
