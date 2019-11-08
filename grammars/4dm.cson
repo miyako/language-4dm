@@ -75,10 +75,6 @@
   ''' : 'entity.name.parameter'
 
   '''
-  variable
-  ''' : 'entity.name.variable'
-
-  '''
   process_variable
   ''' : 'entity.name.variable.process'
 
