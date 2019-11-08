@@ -111,6 +111,10 @@
   ''' : 'string.quoted.double'
 
   '''
+  command
+  ''' : 'constant.language.command'
+
+  '''
   function
   ''' : 'entity.name.function'
 
