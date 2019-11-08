@@ -75,39 +75,39 @@
   ''' : 'entity.name.parameter'
 
   '''
-  _local_variable
+  variable
+  ''' : 'entity.name.variable'  
+
+  '''
+  local_variable
   ''' : 'entity.name.variable.local'
 
   '''
-  _interprocess_variable
+  interprocess_variable
   ''' : 'entity.name.variable.global'
 
   '''
-  _name
-  ''' : 'entity.name.generic'
-
-  '''
-  _table
+  table
   ''' : 'support.storage.table'
 
   '''
-  _field
+  field
   ''' : 'support.storage.field'
 
   '''
-  _number
+  number
   ''' : 'constant.numeric'
 
   '''
-  _date
+  date
   ''' : 'constant.date'
 
   '''
-  _time
+  time
   ''' : 'constant.time'
 
   '''
-  _string
+  string
   ''' : 'string.quoted.double'
 
   '''
