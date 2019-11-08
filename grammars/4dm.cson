@@ -79,6 +79,10 @@
   ''' : 'entity.name.variable'
 
   '''
+  process_variable
+  ''' : 'entity.name.variable.process'
+
+  '''
   local_variable
   ''' : 'entity.name.variable.local'
 
