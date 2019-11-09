@@ -110,6 +110,10 @@
   string
   ''' : 'string.quoted.double'
 
+  '''
+  constant
+  ''' : 'constant.numeric'
+
   # '''
   # command
   # ''' : 'punctuation.definition.command'
@@ -165,7 +169,7 @@
     {match: /(a|A)(r|R)(r|R)(a|A)(y|Y) (d|D)(a|A)(t|T)(e|E)(:(c|C)[0-9]+)?/, scopes: 'support.storage.type'}
     {match: /(a|A)(r|R)(r|R)(a|A)(y|Y) (b|B)(o|O)(o|O)(l|L)(e|E)(a|A)(n|N)(:(c|C)[0-9]+)?/, scopes: 'support.storage.type'}
     {match: /(a|A)(r|R)(r|R)(a|A)(y|Y) (b|B)(l|L)(o|O)(b|B)(:(c|C)[0-9]+)?/, scopes: 'support.storage.type'}
-    'entity.name.function'
+    # 'entity.name.function'
   ]
 
   '''
