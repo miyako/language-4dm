@@ -118,7 +118,7 @@
   function
   ''' : 'entity.name.function'
 
-  'function': [
+  'command': [
     {match: /[cC][_][vV][aA][rR][iI][aA][nN][tT](:[cC][0-9]+)?/, scopes: 'support.storage.type'}
     {match: /[cC][_][oO][bB][jJ][eE][cC][tT](:[cC][0-9]+)?/, scopes: 'support.storage.type'}
     {match: /[cC][_][cC][oO][lL][lL][eE][cC][tT][iI][oO][nN](:[cC][0-9]+)?/, scopes: 'support.storage.type'}
