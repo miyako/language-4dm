@@ -118,6 +118,10 @@
   function
   ''' : 'entity.name.function'
 
+  'function': [
+    {match: /[eE][nN][dD] [wW][hH][iI][lL][eE]/, scopes: 'keyword.control'}
+  ]
+
   '''
   while,
   until,
