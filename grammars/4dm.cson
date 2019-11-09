@@ -112,7 +112,7 @@
 
   '''
   command
-  ''' : 'constant.language.command'
+  ''' : 'punctuation.definition.command'
 
   '''
   function
