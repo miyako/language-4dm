@@ -123,52 +123,52 @@
   command,
   command > value
   ''' : [
-    {match: /(c|C)_(b|B)(l|L)(o|O)(b|B)(:(c|C)[0-9]+)?/, scopes: 'support.storage.type'}
-    {match: /(c|C)_(b|B)(o|O)(o|O)(l|L)(e|E)(a|A)(n|N)(:(c|C)[0-9]+)?/, scopes: 'support.storage.type'}
-    {match: /(c|C)_(c|C)(o|O)(l|L)(l|L)(e|E)(c|C)(t|T)(i|I)(o|O)(n|N)(:(c|C)[0-9]+)?/, scopes: 'support.storage.type'}
-    {match: /(c|C)_(d|D)(a|A)(t|T)(e|E)(:(c|C)[0-9]+)?/, scopes: 'support.storage.type'}
-    {match: /(c|C)_(l|L)(o|O)(n|N)(g|G)(i|I)(n|N)(t|T)(:(c|C)[0-9]+)?/, scopes: 'support.storage.type'}
-    {match: /(c|C)_(o|O)(b|B)(j|J)(e|E)(c|C)(t|T)(:(c|C)[0-9]+)?/, scopes: 'support.storage.type'}
-    {match: /(c|C)_(p|P)(i|I)(c|C)(t|T)(u|U)(r|R)(e|E)(:(c|C)[0-9]+)?/, scopes: 'support.storage.type'}
-    {match: /(c|C)_(p|P)(o|O)(i|I)(n|N)(t|T)(e|E)(r|R)(:(c|C)[0-9]+)?/, scopes: 'support.storage.type'}
-    {match: /(c|C)_(r|R)(e|E)(a|A)(l|L)(:(c|C)[0-9]+)?/, scopes: 'support.storage.type'}
-    {match: /(c|C)_(t|T)(e|E)(x|X)(t|T)(:(c|C)[0-9]+)?/, scopes: 'support.storage.type'}
-    {match: /(c|C)_(t|T)(i|I)(m|M)(e|E)(:(c|C)[0-9]+)?/, scopes: 'support.storage.type'}
-    {match: /_(o|O)_(c|C)_(g|G)(r|R)(a|A)(p|P)(h|H)(:(c|C)[0-9]+)?/, scopes: 'support.storage.type'}
-    {match: /_(o|O)_(c|C)_(i|I)(n|N)(t|T)(e|E)(g|G)(e|E)(r|R)(:(c|C)[0-9]+)?/, scopes: 'support.storage.type'}
-    {match: /_(o|O)_(c|C)_(s|S)(t|T)(r|R)(i|I)(n|N)(g|G)(:(c|C)[0-9]+)?/, scopes: 'support.storage.type'}
-    {match: /(c|C)_(b|B)(o|O)(o|O)(l|L)(e|E)(e|E)(n|N)(:(c|C)[0-9]+)?/, scopes: 'support.storage.type'}
-    {match: /(c|C)_(e|E)(n|N)(t|T)(i|I)(e|E)(r|R) (l|L)(o|O)(n|N)(g|G)(:(c|C)[0-9]+)?/, scopes: 'support.storage.type'}
-    {match: /(c|C)_(h|H)(e|E)(u|U)(r|R)(e|E)(:(c|C)[0-9]+)?/, scopes: 'support.storage.type'}
-    {match: /(c|C)_(i|I)(m|M)(a|A)(g|G)(e|E)(:(c|C)[0-9]+)?/, scopes: 'support.storage.type'}
-    {match: /(c|C)_(o|O)(b|B)(j|J)(e|E)(t|T)(:(c|C)[0-9]+)?/, scopes: 'support.storage.type'}
-    {match: /(c|C)_(p|P)(o|O)(i|I)(n|N)(t|T)(e|E)(u|U)(r|R)(:(c|C)[0-9]+)?/, scopes: 'support.storage.type'}
-    {match: /(c|C)_(r|R)(e|E)(e|E)(l|L)(:(c|C)[0-9]+)?/, scopes: 'support.storage.type'}
-    {match: /(c|C)_(t|T)(e|E)(x|X)(t|T)(e|E)(:(c|C)[0-9]+)?/, scopes: 'support.storage.type'}
-    {match: /(t|T)(a|A)(b|B)(l|L)(e|E)(a|A)(u|U) (b|B)(l|L)(o|O)(b|B)(:(c|C)[0-9]+)?/, scopes: 'support.storage.type'}
-    {match: /(t|T)(a|A)(b|B)(l|L)(e|E)(a|A)(u|U) (b|B)(o|O)(o|O)(l|L)(e|E)(e|E)(n|N)(:(c|C)[0-9]+)?/, scopes: 'support.storage.type'}
-    {match: /(t|T)(a|A)(b|B)(l|L)(e|E)(a|A)(u|U) (d|D)(a|A)(t|T)(e|E)(:(c|C)[0-9]+)?/, scopes: 'support.storage.type'}
-    {match: /(t|T)(a|A)(b|B)(l|L)(e|E)(a|A)(u|U) (e|E)(n|N)(t|T)(i|I)(e|E)(r|R)(:(c|C)[0-9]+)?/, scopes: 'support.storage.type'}
-    {match: /(t|T)(a|A)(b|B)(l|L)(e|E)(a|A)(u|U) (e|E)(n|N)(t|T)(i|I)(e|E)(r|R) (l|L)(o|O)(n|N)(g|G)(:(c|C)[0-9]+)?/, scopes: 'support.storage.type'}
-    {match: /(t|T)(a|A)(b|B)(l|L)(e|E)(a|A)(u|U) (h|H)(e|E)(u|U)(r|R)(e|E)(:(c|C)[0-9]+)?/, scopes: 'support.storage.type'}
-    {match: /(t|T)(a|A)(b|B)(l|L)(e|E)(a|A)(u|U) (i|I)(m|M)(a|A)(g|G)(e|E)(:(c|C)[0-9]+)?/, scopes: 'support.storage.type'}
-    {match: /(t|T)(a|A)(b|B)(l|L)(e|E)(a|A)(u|U) (o|O)(b|B)(j|J)(e|E)(t|T)(:(c|C)[0-9]+)?/, scopes: 'support.storage.type'}
-    {match: /(t|T)(a|A)(b|B)(l|L)(e|E)(a|A)(u|U) (p|P)(o|O)(i|I)(n|N)(t|T)(e|E)(u|U)(r|R)(:(c|C)[0-9]+)?/, scopes: 'support.storage.type'}
-    {match: /(t|T)(a|A)(b|B)(l|L)(e|E)(a|A)(u|U) (r|R)(e|E)(e|E)(l|L)(:(c|C)[0-9]+)?/, scopes: 'support.storage.type'}
-    {match: /(t|T)(a|A)(b|B)(l|L)(e|E)(a|A)(u|U) (t|T)(e|E)(x|X)(t|T)(e|E)(:(c|C)[0-9]+)?/, scopes: 'support.storage.type'}
-    {match: /_(o|O)_(t|T)(a|A)(b|B)(l|L)(e|E)(a|A)(u|U) (a|A)(l|L)(p|P)(h|H)(a|A)(:(c|C)[0-9]+)?/, scopes: 'support.storage.type'}
-    {match: /_(o|O)_(a|A)(r|R)(r|R)(a|A)(y|Y) (s|S)(t|T)(r|R)(i|I)(n|N)(g|G)(:(c|C)[0-9]+)?/, scopes: 'support.storage.type'}
-    {match: /(a|A)(r|R)(r|R)(a|A)(y|Y) (t|T)(i|I)(m|M)(e|E)(:(c|C)[0-9]+)?/, scopes: 'support.storage.type'}
-    {match: /(a|A)(r|R)(r|R)(a|A)(y|Y) (t|T)(e|E)(x|X)(t|T)(:(c|C)[0-9]+)?/, scopes: 'support.storage.type'}
-    {match: /(a|A)(r|R)(r|R)(a|A)(y|Y) (r|R)(e|E)(a|A)(l|L)(:(c|C)[0-9]+)?/, scopes: 'support.storage.type'}
-    {match: /(a|A)(r|R)(r|R)(a|A)(y|Y) (p|P)(o|O)(i|I)(n|N)(t|T)(e|E)(r|R)(:(c|C)[0-9]+)?/, scopes: 'support.storage.type'}
-    {match: /(a|A)(r|R)(r|R)(a|A)(y|Y) (p|P)(i|I)(c|C)(t|T)(u|U)(r|R)(e|E)(:(c|C)[0-9]+)?/, scopes: 'support.storage.type'}
-    {match: /(a|A)(r|R)(r|R)(a|A)(y|Y) (o|O)(b|B)(j|J)(e|E)(c|C)(t|T)(:(c|C)[0-9]+)?/, scopes: 'support.storage.type'}
-    {match: /(a|A)(r|R)(r|R)(a|A)(y|Y) (l|L)(o|O)(n|N)(g|G)(i|I)(n|N)(t|T)(:(c|C)[0-9]+)?/, scopes: 'support.storage.type'}
-    {match: /(a|A)(r|R)(r|R)(a|A)(y|Y) (i|I)(n|N)(t|T)(e|E)(g|G)(e|E)(r|R)(:(c|C)[0-9]+)?/, scopes: 'support.storage.type'}
-    {match: /(a|A)(r|R)(r|R)(a|A)(y|Y) (d|D)(a|A)(t|T)(e|E)(:(c|C)[0-9]+)?/, scopes: 'support.storage.type'}
-    {match: /(a|A)(r|R)(r|R)(a|A)(y|Y) (b|B)(o|O)(o|O)(l|L)(e|E)(a|A)(n|N)(:(c|C)[0-9]+)?/, scopes: 'support.storage.type'}
-    {match: /(a|A)(r|R)(r|R)(a|A)(y|Y) (b|B)(l|L)(o|O)(b|B)(:(c|C)[0-9]+)?/, scopes: 'support.storage.type'}
+    {match: '(c|C)_(b|B)(l|L)(o|O)(b|B)(:(c|C)[0-9]+)?', scopes: 'support.storage.type'}
+    {match: '(c|C)_(b|B)(o|O)(o|O)(l|L)(e|E)(a|A)(n|N)(:(c|C)[0-9]+)?', scopes: 'support.storage.type'}
+    {match: '(c|C)_(c|C)(o|O)(l|L)(l|L)(e|E)(c|C)(t|T)(i|I)(o|O)(n|N)(:(c|C)[0-9]+)?', scopes: 'support.storage.type'}
+    {match: '(c|C)_(d|D)(a|A)(t|T)(e|E)(:(c|C)[0-9]+)?', scopes: 'support.storage.type'}
+    {match: '(c|C)_(l|L)(o|O)(n|N)(g|G)(i|I)(n|N)(t|T)(:(c|C)[0-9]+)?', scopes: 'support.storage.type'}
+    {match: '(c|C)_(o|O)(b|B)(j|J)(e|E)(c|C)(t|T)(:(c|C)[0-9]+)?', scopes: 'support.storage.type'}
+    {match: '(c|C)_(p|P)(i|I)(c|C)(t|T)(u|U)(r|R)(e|E)(:(c|C)[0-9]+)?', scopes: 'support.storage.type'}
+    {match: '(c|C)_(p|P)(o|O)(i|I)(n|N)(t|T)(e|E)(r|R)(:(c|C)[0-9]+)?', scopes: 'support.storage.type'}
+    {match: '(c|C)_(r|R)(e|E)(a|A)(l|L)(:(c|C)[0-9]+)?', scopes: 'support.storage.type'}
+    {match: '(c|C)_(t|T)(e|E)(x|X)(t|T)(:(c|C)[0-9]+)?', scopes: 'support.storage.type'}
+    {match: '(c|C)_(t|T)(i|I)(m|M)(e|E)(:(c|C)[0-9]+)?', scopes: 'support.storage.type'}
+    {match: '_(o|O)_(c|C)_(g|G)(r|R)(a|A)(p|P)(h|H)(:(c|C)[0-9]+)?', scopes: 'support.storage.type'}
+    {match: '_(o|O)_(c|C)_(i|I)(n|N)(t|T)(e|E)(g|G)(e|E)(r|R)(:(c|C)[0-9]+)?', scopes: 'support.storage.type'}
+    {match: '_(o|O)_(c|C)_(s|S)(t|T)(r|R)(i|I)(n|N)(g|G)(:(c|C)[0-9]+)?', scopes: 'support.storage.type'}
+    {match: '(c|C)_(b|B)(o|O)(o|O)(l|L)(e|E)(e|E)(n|N)(:(c|C)[0-9]+)?', scopes: 'support.storage.type'}
+    {match: '(c|C)_(e|E)(n|N)(t|T)(i|I)(e|E)(r|R) (l|L)(o|O)(n|N)(g|G)(:(c|C)[0-9]+)?', scopes: 'support.storage.type'}
+    {match: '(c|C)_(h|H)(e|E)(u|U)(r|R)(e|E)(:(c|C)[0-9]+)?', scopes: 'support.storage.type'}
+    {match: '(c|C)_(i|I)(m|M)(a|A)(g|G)(e|E)(:(c|C)[0-9]+)?', scopes: 'support.storage.type'}
+    {match: '(c|C)_(o|O)(b|B)(j|J)(e|E)(t|T)(:(c|C)[0-9]+)?', scopes: 'support.storage.type'}
+    {match: '(c|C)_(p|P)(o|O)(i|I)(n|N)(t|T)(e|E)(u|U)(r|R)(:(c|C)[0-9]+)?', scopes: 'support.storage.type'}
+    {match: '(c|C)_(r|R)(e|E)(e|E)(l|L)(:(c|C)[0-9]+)?', scopes: 'support.storage.type'}
+    {match: '(c|C)_(t|T)(e|E)(x|X)(t|T)(e|E)(:(c|C)[0-9]+)?', scopes: 'support.storage.type'}
+    {match: '(t|T)(a|A)(b|B)(l|L)(e|E)(a|A)(u|U) (b|B)(l|L)(o|O)(b|B)(:(c|C)[0-9]+)?', scopes: 'support.storage.type'}
+    {match: '(t|T)(a|A)(b|B)(l|L)(e|E)(a|A)(u|U) (b|B)(o|O)(o|O)(l|L)(e|E)(e|E)(n|N)(:(c|C)[0-9]+)?', scopes: 'support.storage.type'}
+    {match: '(t|T)(a|A)(b|B)(l|L)(e|E)(a|A)(u|U) (d|D)(a|A)(t|T)(e|E)(:(c|C)[0-9]+)?', scopes: 'support.storage.type'}
+    {match: '(t|T)(a|A)(b|B)(l|L)(e|E)(a|A)(u|U) (e|E)(n|N)(t|T)(i|I)(e|E)(r|R)(:(c|C)[0-9]+)?', scopes: 'support.storage.type'}
+    {match: '(t|T)(a|A)(b|B)(l|L)(e|E)(a|A)(u|U) (e|E)(n|N)(t|T)(i|I)(e|E)(r|R) (l|L)(o|O)(n|N)(g|G)(:(c|C)[0-9]+)?', scopes: 'support.storage.type'}
+    {match: '(t|T)(a|A)(b|B)(l|L)(e|E)(a|A)(u|U) (h|H)(e|E)(u|U)(r|R)(e|E)(:(c|C)[0-9]+)?', scopes: 'support.storage.type'}
+    {match: '(t|T)(a|A)(b|B)(l|L)(e|E)(a|A)(u|U) (i|I)(m|M)(a|A)(g|G)(e|E)(:(c|C)[0-9]+)?', scopes: 'support.storage.type'}
+    {match: '(t|T)(a|A)(b|B)(l|L)(e|E)(a|A)(u|U) (o|O)(b|B)(j|J)(e|E)(t|T)(:(c|C)[0-9]+)?', scopes: 'support.storage.type'}
+    {match: '(t|T)(a|A)(b|B)(l|L)(e|E)(a|A)(u|U) (p|P)(o|O)(i|I)(n|N)(t|T)(e|E)(u|U)(r|R)(:(c|C)[0-9]+)?', scopes: 'support.storage.type'}
+    {match: '(t|T)(a|A)(b|B)(l|L)(e|E)(a|A)(u|U) (r|R)(e|E)(e|E)(l|L)(:(c|C)[0-9]+)?', scopes: 'support.storage.type'}
+    {match: '(t|T)(a|A)(b|B)(l|L)(e|E)(a|A)(u|U) (t|T)(e|E)(x|X)(t|T)(e|E)(:(c|C)[0-9]+)?', scopes: 'support.storage.type'}
+    {match: '_(o|O)_(t|T)(a|A)(b|B)(l|L)(e|E)(a|A)(u|U) (a|A)(l|L)(p|P)(h|H)(a|A)(:(c|C)[0-9]+)?', scopes: 'support.storage.type'}
+    {match: '_(o|O)_(a|A)(r|R)(r|R)(a|A)(y|Y) (s|S)(t|T)(r|R)(i|I)(n|N)(g|G)(:(c|C)[0-9]+)?', scopes: 'support.storage.type'}
+    {match: '(a|A)(r|R)(r|R)(a|A)(y|Y) (t|T)(i|I)(m|M)(e|E)(:(c|C)[0-9]+)?', scopes: 'support.storage.type'}
+    {match: '(a|A)(r|R)(r|R)(a|A)(y|Y) (t|T)(e|E)(x|X)(t|T)(:(c|C)[0-9]+)?', scopes: 'support.storage.type'}
+    {match: '(a|A)(r|R)(r|R)(a|A)(y|Y) (r|R)(e|E)(a|A)(l|L)(:(c|C)[0-9]+)?', scopes: 'support.storage.type'}
+    {match: '(a|A)(r|R)(r|R)(a|A)(y|Y) (p|P)(o|O)(i|I)(n|N)(t|T)(e|E)(r|R)(:(c|C)[0-9]+)?', scopes: 'support.storage.type'}
+    {match: '(a|A)(r|R)(r|R)(a|A)(y|Y) (p|P)(i|I)(c|C)(t|T)(u|U)(r|R)(e|E)(:(c|C)[0-9]+)?', scopes: 'support.storage.type'}
+    {match: '(a|A)(r|R)(r|R)(a|A)(y|Y) (o|O)(b|B)(j|J)(e|E)(c|C)(t|T)(:(c|C)[0-9]+)?', scopes: 'support.storage.type'}
+    {match: '(a|A)(r|R)(r|R)(a|A)(y|Y) (l|L)(o|O)(n|N)(g|G)(i|I)(n|N)(t|T)(:(c|C)[0-9]+)?', scopes: 'support.storage.type'}
+    {match: '(a|A)(r|R)(r|R)(a|A)(y|Y) (i|I)(n|N)(t|T)(e|E)(g|G)(e|E)(r|R)(:(c|C)[0-9]+)?', scopes: 'support.storage.type'}
+    {match: '(a|A)(r|R)(r|R)(a|A)(y|Y) (d|D)(a|A)(t|T)(e|E)(:(c|C)[0-9]+)?', scopes: 'support.storage.type'}
+    {match: '(a|A)(r|R)(r|R)(a|A)(y|Y) (b|B)(o|O)(o|O)(l|L)(e|E)(a|A)(n|N)(:(c|C)[0-9]+)?', scopes: 'support.storage.type'}
+    {match: '(a|A)(r|R)(r|R)(a|A)(y|Y) (b|B)(l|L)(o|O)(b|B)(:(c|C)[0-9]+)?', scopes: 'support.storage.type'}
     'constant.other.command'
   ]
 
