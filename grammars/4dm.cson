@@ -115,6 +115,10 @@
   ''' : 'constant.numeric'
 
   '''
+  reference
+  ''' : 'entity.reference'
+
+  '''
   function,
   function > value
   ''' : 'constant.other.function'
