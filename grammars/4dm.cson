@@ -111,14 +111,14 @@
   ''' : 'string.quoted.double'
 
   '''
-  command
-  ''' : 'punctuation.definition.command'
+  constant
+  ''' : 'constant.numeric'
 
   '''
   function
   ''' : 'entity.name.function'
 
-  'command': [
+  'command, command > value': [
     {match: /(c|C)_(b|B)(l|L)(o|O)(b|B)(:(c|C)[0-9]+)?/, scopes: 'support.storage.type'}
     {match: /(c|C)_(b|B)(o|O)(o|O)(l|L)(e|E)(a|A)(n|N)(:(c|C)[0-9]+)?/, scopes: 'support.storage.type'}
     {match: /(c|C)_(c|C)(o|O)(l|L)(l|L)(e|E)(c|C)(t|T)(i|I)(o|O)(n|N)(:(c|C)[0-9]+)?/, scopes: 'support.storage.type'}
@@ -165,6 +165,7 @@
     {match: /(a|A)(r|R)(r|R)(a|A)(y|Y) (d|D)(a|A)(t|T)(e|E)(:(c|C)[0-9]+)?/, scopes: 'support.storage.type'}
     {match: /(a|A)(r|R)(r|R)(a|A)(y|Y) (b|B)(o|O)(o|O)(l|L)(e|E)(a|A)(n|N)(:(c|C)[0-9]+)?/, scopes: 'support.storage.type'}
     {match: /(a|A)(r|R)(r|R)(a|A)(y|Y) (b|B)(l|L)(o|O)(b|B)(:(c|C)[0-9]+)?/, scopes: 'support.storage.type'}
+    'constant.other.function'
   ]
 
   '''
