@@ -72,7 +72,7 @@
 
   '''
   parameter
-  ''' : 'entity.name.parameter'
+  ''' : 'constant.other.parameter'
 
   '''
   process_variable
@@ -119,7 +119,56 @@
   ''' : 'entity.name.function'
 
   'function': [
-    {match: /[eE][nN][dD] [wW][hH][iI][lL][eE]/, scopes: 'keyword.control'}
+    {match: /[cC][_][vV][aA][rR][iI][aA][nN][tT]/, scopes: 'support.storage.type'}
+    {match: /[cC][_][oO][bB][jJ][eE][cC][tT]/, scopes: 'support.storage.type'}
+    {match: /[cC][_][cC][oO][lL][lL][eE][cC][tT][iI][oO][nN]/, scopes: 'support.storage.type'}
+    {match: /[cC][_][pP][oO][iI][nN][tT][eE][rR]/, scopes: 'support.storage.type'}
+    {match: /[cC][_][pP][iI][cC][tT][uU][rR][eE]/, scopes: 'support.storage.type'}
+    {match: /[cC][_][bB][oO][oO][lL][eE][aA][nN]/, scopes: 'support.storage.type'}
+    {match: /[cC][_][lL][oO][nN][gG][iI][nN][tT]/, scopes: 'support.storage.type'}
+    {match: /[cC][_][bB][lL][oO][bB]/, scopes: 'support.storage.type'}
+    {match: /[cC][_][dD][aA][tT][eE]/, scopes: 'support.storage.type'}
+    {match: /[cC][_][rR][eE][aA][lL]/, scopes: 'support.storage.type'}
+    {match: /[cC][_][tT][eE][xX][tT]/, scopes: 'support.storage.type'}
+    {match: /[cC][_][tT][iI][mM][eE]/, scopes: 'support.storage.type'}
+    {match: /[cC][_][oO][bB][jJ][eE][tT]/, scopes: 'support.storage.type'}
+    {match: /[cC][_][pP][oO][iI][nN][tT][eE][uU][rR]/, scopes: 'support.storage.type'}
+    {match: /[cC][_][iI][mM][aA][gG][eE]/, scopes: 'support.storage.type'}
+    {match: /[cC][_][bB][oO][oO][lL][eE][eE][nN]/, scopes: 'support.storage.type'}
+    {match: /[cC][_][eE][nN][tT][iI][eE][rR][_][lL][oO][nN][gG]/, scopes: 'support.storage.type'}
+    {match: /[cC][_][rR][eE][eE][lL]/, scopes: 'support.storage.type'}
+    {match: /[cC][_][tT][eE][xX][tT][eE]/, scopes: 'support.storage.type'}
+    {match: /[cC][_][hH][eE][uU][rR][eE]/, scopes: 'support.storage.type'}
+    {match: /[_][oO][_][cC][_][gG][rR][aA][pP][hH]/, scopes: 'support.storage.type'}
+    {match: /[_][oO][_][cC][_][sS][tT][rR][iI][nN][gG]/, scopes: 'support.storage.type'}
+    {match: /[_][oO][_][cC][_][iI][nN][tT][eE][gG][eE][rR]/, scopes: 'support.storage.type'}
+    {match: /[_][oO][_][cC][_][gG][rR][aA][pP][hH][eE]/, scopes: 'support.storage.type'}
+    {match: /[_][oO][_][cC][_][aA][lL][pP][hH][aA]/, scopes: 'support.storage.type'}
+    {match: /[_][oO][_][cC][_][eE][nN][tT][iI][eE][rR]/, scopes: 'support.storage.type'}
+    {match: /[aA][rR][rR][aA][yY] [oO][bB][jJ][eE][cC][tT]/, scopes: 'support.storage.type'}
+    {match: /[aA][rR][rR][aA][yY] [pP][oO][iI][nN][tT][eE][rR]/, scopes: 'support.storage.type'}
+    {match: /[aA][rR][rR][aA][yY] [pP][iI][cC][tT][uU][rR][eE]/, scopes: 'support.storage.type'}
+    {match: /[aA][rR][rR][aA][yY] [bB][oO][oO][lL][eE][aA][nN]/, scopes: 'support.storage.type'}
+    {match: /[aA][rR][rR][aA][yY] [lL][oO][nN][gG][iI][nN][tT]/, scopes: 'support.storage.type'}
+    {match: /[aA][rR][rR][aA][yY] [iI][nN][tT][eE][gG][eE][rR]/, scopes: 'support.storage.type'}
+    {match: /[aA][rR][rR][aA][yY] [bB][lL][oO][bB]/, scopes: 'support.storage.type'}
+    {match: /[aA][rR][rR][aA][yY] [dD][aA][tT][eE]/, scopes: 'support.storage.type'}
+    {match: /[aA][rR][rR][aA][yY] [tT][iI][mM][eE]/, scopes: 'support.storage.type'}
+    {match: /[aA][rR][rR][aA][yY] [rR][eE][aA][lL]/, scopes: 'support.storage.type'}
+    {match: /[aA][rR][rR][aA][yY] [tT][eE][xX][tT]/, scopes: 'support.storage.type'}
+    {match: /[tT][aA][bB][lL][eE][aA][uU] [oO][bB][jJ][eE][tT]/, scopes: 'support.storage.type'}
+    {match: /[tT][aA][bB][lL][eE][aA][uU] [pP][oO][iI][nN][tT][eE][uU][rR]/, scopes: 'support.storage.type'}
+    {match: /[tT][aA][bB][lL][eE][aA][uU] [iI][mM][aA][gG][eE]/, scopes: 'support.storage.type'}
+    {match: /[tT][aA][bB][lL][eE][aA][uU] [bB][oO][oO][lL][eE][eE][nN]/, scopes: 'support.storage.type'}
+    {match: /[tT][aA][bB][lL][eE][aA][uU] [eE][nN][tT][iI][eE][rR] [lL][oO][nN][gG]/, scopes: 'support.storage.type'}
+    {match: /[tT][aA][bB][lL][eE][aA][uU] [rR][eE][eE][lL]/, scopes: 'support.storage.type'}
+    {match: /[tT][aA][bB][lL][eE][aA][uU] [bB][lL][oO][bB]/, scopes: 'support.storage.type'}
+    {match: /[tT][aA][bB][lL][eE][aA][uU] [dD][aA][tT][eE]/, scopes: 'support.storage.type'}
+    {match: /[tT][aA][bB][lL][eE][aA][uU] [tT][eE][xX][tT][eE]/, scopes: 'support.storage.type'}
+    {match: /[tT][aA][bB][lL][eE][aA][uU] [eE][nN][tT][iI][eE][rR]/, scopes: 'support.storage.type'}
+    {match: /[tT][aA][bB][lL][eE][aA][uU] [hH][eE][uU][rR][eE]/, scopes: 'support.storage.type'}
+    {match: /[_][oO][_][tT][aA][bB][lL][eE][aA][uU] [aA][lL][pP][hH][aA]/, scopes: 'support.storage.type'}
+    {match: /[_][oO][_][aA][rR][rR][aA][yY] [sS][tT][rR][iI][nN][gG]/, scopes: 'support.storage.type'}
   ]
 
   '''
