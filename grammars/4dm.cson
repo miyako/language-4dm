@@ -48,13 +48,13 @@
   {
     'type': ['case_block']
     'start': {'type': 'case_of'}
-    'end': {'type': ['case', 'else_case_block', 'end_case']}
+    'end': {'type': ['case_of', 'else_case_block', 'end_case']}
   }
 
   {
     'type': ['case']
     'start': {'type': ":"}
-    'end': {'type': ['case', 'else_case_block', 'end_case']}
+    'end': {'type': ['else_case_block', 'end_case']}
   }
 
   {
