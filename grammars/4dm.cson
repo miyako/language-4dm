@@ -35,8 +35,14 @@
 
   {
     'type': ['if_block']
-    'start': {'type': ['end_if', 'if']}
-    'end': {'type': ['else', 'end_if']}
+    'start': {'type': 'if'}
+    'end': {'type': ['else_if_block', 'end_if']}
+  }
+
+  {
+    'type': ['else_if_block']
+    'start': {'type': 'else'}
+    'end': {'type': 'end_if'}
   }
 
   {
