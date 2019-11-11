@@ -52,6 +52,10 @@
   }
 
   {
+    'type': ['case']
+  }
+  
+  {
     'type': ['else_case_block']
     'start': {'type': 'else'}
     'end': {'type': 'end_case'}
