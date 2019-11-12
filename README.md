@@ -6,7 +6,7 @@
 #### TODO
 
 * ~~double folding (``Else``)~~
-* case folding (``:``)
+* ~~case folding (``:``)~~
 * wrapping (anti-slash)
 * switch context inside sql block
 * 4D tags
