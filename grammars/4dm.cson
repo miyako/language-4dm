@@ -15,6 +15,11 @@
   'end': '*/'
 
 'folds': [
+
+  {
+    'type': ['comment']
+  }
+
   {
     'type': ['for_each_block']
     'start': {'type': 'for_each'}
@@ -82,10 +87,6 @@
 ]
 
 'scopes':
-
-  '''
-  comment
-  ''' : 'comment.block'
 
   '''
   parameter
@@ -221,6 +222,10 @@
   "[[",
   "]]"
   ''' : 'keyword.operator'
+
+  '''
+  comment
+  ''' : 'comment.block'
 
   '''
   command,
