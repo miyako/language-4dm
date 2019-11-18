@@ -133,8 +133,12 @@
   ''' : 'constant.numeric'
 
   '''
-  reference
-  ''' : 'entity.reference'
+  property
+  ''' : 'entity.property'
+
+  '''
+  method
+  ''' : 'support.method'
 
   '''
   function,
