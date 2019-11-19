@@ -207,11 +207,13 @@
     'constant.other.function'
     ]
 
-  '''
-  comment,
-  "/*",
-  "*/"
-  ''' : 'comment.block'
+  # '''
+  # comment
+  # ''' : 'comment.block'
+
+  'comment': 'comment.block'
+  'comment > "*"': 'comment.block'
+  'comment > "/"': 'comment.block'
 
   '''
   command,
