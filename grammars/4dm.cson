@@ -151,7 +151,7 @@
   "-",
   ".",
   "*",
-  "/"        
+  "/"
   ''' : 'keyword.operator'
 
   '''
@@ -208,7 +208,9 @@
     ]
 
   '''
-  comment
+  comment,
+  "/*",
+  "*/"
   ''' : 'comment.block'
 
   '''
