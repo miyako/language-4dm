@@ -141,6 +141,15 @@
   ''' : 'support.method'
 
   '''
+  "[",
+  "]",
+  "{",
+  "}",
+  "(",
+  ")"
+  ''' : 'keyword.operator'
+
+  '''
   function,
   function > value
   ''' : [
