@@ -180,6 +180,7 @@
     {match: '(c|C)_(p|P)(o|O)(i|I)(n|N)(t|T)(e|E)(u|U)(r|R)(:(c|C)[0-9]+)?', scopes: 'support.storage.type'}
     {match: '(c|C)_(r|R)(e|E)(e|E)(l|L)(:(c|C)[0-9]+)?', scopes: 'support.storage.type'}
     {match: '(c|C)_(t|T)(e|E)(x|X)(t|T)(e|E)(:(c|C)[0-9]+)?', scopes: 'support.storage.type'}
+    {match: '(c|C)_(v|V)(a|A)(r|R)(i|I)(a|A)(n|N)(t|T)(:(c|C)[0-9]+)?', scopes: 'support.storage.type'}
     {match: '(t|T)(a|A)(b|B)(l|L)(e|E)(a|A)(u|U) (b|B)(l|L)(o|O)(b|B)(:(c|C)[0-9]+)?', scopes: 'support.storage.type'}
     {match: '(t|T)(a|A)(b|B)(l|L)(e|E)(a|A)(u|U) (b|B)(o|O)(o|O)(l|L)(e|E)(e|E)(n|N)(:(c|C)[0-9]+)?', scopes: 'support.storage.type'}
     {match: '(t|T)(a|A)(b|B)(l|L)(e|E)(a|A)(u|U) (d|D)(a|A)(t|T)(e|E)(:(c|C)[0-9]+)?', scopes: 'support.storage.type'}
@@ -241,6 +242,7 @@
     {match: '(c|C)_(p|P)(o|O)(i|I)(n|N)(t|T)(e|E)(u|U)(r|R)(:(c|C)[0-9]+)?', scopes: 'support.storage.type'}
     {match: '(c|C)_(r|R)(e|E)(e|E)(l|L)(:(c|C)[0-9]+)?', scopes: 'support.storage.type'}
     {match: '(c|C)_(t|T)(e|E)(x|X)(t|T)(e|E)(:(c|C)[0-9]+)?', scopes: 'support.storage.type'}
+    {match: '(c|C)_(v|V)(a|A)(r|R)(i|I)(a|A)(n|N)(t|T)(:(c|C)[0-9]+)?', scopes: 'support.storage.type'}
     {match: '(t|T)(a|A)(b|B)(l|L)(e|E)(a|A)(u|U) (b|B)(l|L)(o|O)(b|B)(:(c|C)[0-9]+)?', scopes: 'support.storage.type'}
     {match: '(t|T)(a|A)(b|B)(l|L)(e|E)(a|A)(u|U) (b|B)(o|O)(o|O)(l|L)(e|E)(e|E)(n|N)(:(c|C)[0-9]+)?', scopes: 'support.storage.type'}
     {match: '(t|T)(a|A)(b|B)(l|L)(e|E)(a|A)(u|U) (d|D)(a|A)(t|T)(e|E)(:(c|C)[0-9]+)?', scopes: 'support.storage.type'}
