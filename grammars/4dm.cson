@@ -2,7 +2,7 @@
 #   - https://flight-manual.atom.io/hacking-atom/sections/creating-a-grammar/
 
 'scopeName': 'source.4dm'
-'name': '4dm'
+'name': '4D Method'
 'type': 'tree-sitter'
 'parser': 'tree-sitter-4dm'
 
