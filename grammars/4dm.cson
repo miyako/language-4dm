@@ -141,6 +141,10 @@
   ''' : 'support.method'
 
   '''
+  class
+  ''' : 'constant.other.command'
+
+  '''
   "[",
   "]",
   "{",
