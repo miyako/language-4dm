@@ -287,5 +287,6 @@
   case_of,
   end_case,
   begin_sql,
-  end_sql
+  end_sql,
+  var
   ''' : 'keyword.control'
