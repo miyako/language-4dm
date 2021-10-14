@@ -134,11 +134,11 @@
 
   '''
   property
-  ''' : 'entity.property'
+  ''' : 'variable.other.object.property.unquoted'
 
   '''
   method
-  ''' : 'support.method'
+  ''' : 'variable.parameter.function'
 
   '''
   class
@@ -292,5 +292,6 @@
   end_case,
   begin_sql,
   end_sql,
-  var
+  var,
+  function_keywords
   ''' : 'keyword.control'
