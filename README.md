@@ -9,7 +9,9 @@
 
 #### TODO
 
+* Class Extends
 * #DECLARE
 * wrapping (anti-slash)
 * SQL
 * #4DCODE
+* //%W, %R, %T
