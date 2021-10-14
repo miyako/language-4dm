@@ -141,7 +141,8 @@
   ''' : 'variable.parameter.function'
 
   '''
-  class
+  class,
+  declare
   ''' : 'constant.other.command'
 
   '''
@@ -293,5 +294,6 @@
   begin_sql,
   end_sql,
   var,
-  function_name
+  function_name,
+  class_extends
   ''' : 'keyword.control'
