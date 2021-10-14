@@ -293,5 +293,5 @@
   begin_sql,
   end_sql,
   var,
-  function_keywords
+  function_name
   ''' : 'keyword.control'
