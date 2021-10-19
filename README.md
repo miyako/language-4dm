@@ -11,6 +11,7 @@
 
 * ~~Class Extends~~
 * ~~#DECLARE~~
+* ~~Class Constructor~~
 * wrapping (anti-slash)
 * SQL
 * #4DCODE
