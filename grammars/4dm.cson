@@ -298,5 +298,5 @@
   var,
   function_name,
   class_extends,
-  class_constructor
+  constructor_name
   ''' : 'keyword.control'
