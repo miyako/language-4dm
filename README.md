@@ -12,6 +12,7 @@
 * ~~Class Extends~~
 * ~~#DECLARE~~
 * ~~Class Constructor~~
+* ~~Function (get, set, query, orderBy, local, exposed)~~
 * wrapping (anti-slash)
 * SQL
 * #4DCODE
