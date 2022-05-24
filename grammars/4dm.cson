@@ -296,6 +296,9 @@
   begin_sql,
   end_sql,
   var,
+  break_statement,
+  continue_statement,
+  return_statement,
   function_name,
   class_extends,
   constructor_name
