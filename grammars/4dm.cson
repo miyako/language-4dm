@@ -52,7 +52,7 @@
 
   {
     'type': ['case_block']
-    'start': {'type': 'case_of'}
+    'start': {'type': ['case_colon_block', 'else_case_block']}
     'end': {'type': ['else_case_block', 'end_case']}
   }
 
