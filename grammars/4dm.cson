@@ -39,18 +39,6 @@
   }
 
   {
-    'type': ['if_block']
-    'start': {'type': 'if'}
-    'end': {'type': ['else_if_block', 'end_if']}
-  }
-
-  {
-    'type': ['else_if_block']
-    'start': {'type': 'else'}
-    'end': {'type': 'end_if'}
-  }
-
-  {
     'type': ['for_block']
     'start': {'type': 'for'}
     'end': {'type': 'end_for'}
