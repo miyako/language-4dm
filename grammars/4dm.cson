@@ -52,12 +52,14 @@
 
   {
     'type': ['case_block']
-    'start': {'type': ['case_colon_block', 'else_case_block']}
-    'end': {'type': ['else_case_block', 'end_case']}
+    'start': {'type': 'case_of'}
+    'end': {'type': 'end_case'}
   }
 
   {
-    'type': ['case']
+    'type': ['case_colon_block']
+    'start': ':'
+    'end': [':', {'type': ['else', 'end_case']}]
   }
 
   {
