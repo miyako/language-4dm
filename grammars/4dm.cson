@@ -21,6 +21,24 @@
   }
 
   {
+    'type': ['if_block']
+    'start': {'type': 'if'}
+    'end': {'type': ['condition', 'end_if']}
+  }
+
+  {
+    'type': ['case_block']
+    'start': {'type': 'case_of'}
+    'end': {'type': ['condition', 'end_case']}
+  }
+
+  {
+    'type': ['else_block']
+    'start': {'type': 'condition'}
+    'end': {'type': ['condition', 'end_if', 'end_case']}
+  }
+
+  {
     'type': ['for_each_block']
     'start': {'type': 'for_each'}
     'end': {'type': 'end_for_each'}
