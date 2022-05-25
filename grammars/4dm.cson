@@ -51,24 +51,6 @@
   }
 
   {
-    'type': ['case_block']
-    'start': {'type': 'case_of'}
-    'end': {'type': 'end_case'}
-  }
-
-  {
-    'type': ['case_colon_block']
-    'start': ':'
-    'end': [':', {'type': ['else', 'end_case']}]
-  }
-
-  {
-    'type': ['else_case_block']
-    'start': {'type': 'else'}
-    'end': {'type': 'end_case'}
-  }
-
-  {
     'type': ['for_block']
     'start': {'type': 'for'}
     'end': {'type': 'end_for'}
