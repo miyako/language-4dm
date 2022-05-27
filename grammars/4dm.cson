@@ -305,5 +305,6 @@
   return,
   function_name,
   class_extends,
+  alias,
   constructor_name
   ''' : 'keyword.control'
