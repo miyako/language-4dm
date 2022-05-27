@@ -91,10 +91,6 @@
   ''' : 'variable.parameter.function'
 
   '''
-  case_condition
-  ''' : 'constant.other.function'
-
-  '''
   local_variable
   ''' : 'entity.name.variable.local'
 
