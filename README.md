@@ -15,4 +15,4 @@ https://atom.io/packages/language-4dm
 * SQL
 * #4DCODE
 * //%W, %R, %T
-* [Alias](https://doc4d.github.io/docs/ja/ORDA/ordaClasses.html#エイリアス属性-1)
+* ~~[Alias](https://doc4d.github.io/docs/ja/ORDA/ordaClasses.html#エイリアス属性-1)~~
