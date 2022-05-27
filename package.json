@@ -1,6 +1,6 @@
 {
   "name": "language-4dm",
-  "version": "2.12.0",
+  "version": "2.13.0",
   "description": "4D language support in Atom",
   "keywords": [
     "language",
